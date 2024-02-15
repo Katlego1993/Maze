@@ -1,0 +1,297 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+header {
+    background-image: url(images/clark-van-der.jpg);
+    background-size: contain;
+    border-bottom: 1px solid silver;
+    color: rgb(255, 1, 1);
+}
+header, footer {
+    text-align: center;
+}
+footer {
+    background: black;
+    border-top: 1px solid silver;
+    display: block;
+}
+
+header, footer {
+    text-align: center;
+}
+
+#History {
+    margin: 10px 50px;
+    text-align: center;
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#History img {
+    border: 1px solid #0c0606;
+    box-shadow: 8px 8px 3px rgba(241, 238, 238, 0.336), 2px 2px 3px rgba(2, 248, 228, 0.64);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px;
+    margin: 10px;
+}
+element.style {
+    display: inline;
+}
+element.style {
+    display: none;
+}
+#more {
+    display: none;
+}
+button {
+    appearance: auto;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-variant-alternates: ;
+    font-variant-position: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    font-optical-sizing: ;
+    font-kerning: ;
+    font-feature-settings: ;
+    font-variation-settings: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding-block: 1px;
+    padding-inline: 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+.Intro_End {
+    margin: 0 auto;
+    padding: 2px 0;
+}
+div {
+    display: block;
+}
+h1 {
+    font-size: 80px;
+}
+
+h1 {
+    line-height: 1;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Expose {
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(255, 208, 1);
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.For_ALX {
+    color: rgb(3, 220, 248);
+}
+
+header a {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 4px;
+}
+.Developers, .Game {
+    margin: 0 0;
+    padding: 2px 0;
+}
+
+.Game {
+    background-image: radial-gradient(ellipse at top, #0c09c4, transparent),radial-gradient(ellipse at bottom, #4d4c1b, transparent), radial-gradient(ellipse at top, #c00808, transparent),radial-gradient(ellipse at bottom, #4d1b46, transparent);
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.History {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 50px;
+    text-align: center;
+    flex-flow: row wrap;
+}
+#History img {
+    border: 1px solid #0c0606;
+    box-shadow: 8px 8px 3px rgba(241, 238, 238, 0.336), 2px 2px 3px rgba(2, 248, 228, 0.64);
+}
+.img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px;
+    margin:10px ;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+ 
+section {
+    display: block;
+}
+#more {
+    display: none;
+}
+.Game_Cntrls h3 {
+    text-align: center;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.CntrlKeys {
+    background: repeating-linear-gradient( to bottom, #013e77, rgba(25, 182, 4, 0.3), #1a015f );
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 0%;
+    border: 1px solid #0c0606;
+    box-shadow: 4px 4px 2px black;
+}
+.CntrlKeys ul {
+    list-style-type: none;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.Play {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 15px;
+    padding: 0;
+    background: repeating-linear-gradient( to bottom, #b7d7f5, rgb(148, 151, 147), #f2f3ef );
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 0.5px black;
+    text-decoration: none;
+}
+
+.Developers, .Game {
+    margin: 0 0;
+    padding: 2px 0;
+}
+.Developers {
+    background-image: url(images/cray.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+h2 {
+    text-align: center;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+figure img {
+    border-radius: 50%;
+}
+
+.Dev-Profile, #History {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+footer {
+    background: rgb(54, 53, 53);
+    border-top: 1px solid silver;
+}
+
+header, footer {
+    text-align: center;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+user agent stylesheet
+footer {
+    display: block;
+}
+.Text-Content {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.Intro_End {
+    margin: 0 auto;
+    padding: 2px 0;
+}
